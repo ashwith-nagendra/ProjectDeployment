@@ -1,0 +1,181 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.bio {
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.bio h2::after {
+    content: '';
+    display: block;
+    width: 3%;
+    height: 2px;
+    background: black;
+    margin: 5px auto 0;
+}
+
+.bio h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.skills {
+    background-color: #008CBA;
+    padding: 20px 10px 0px 0px;
+    color: white;
+}
+.skills h3::after {
+    content: '';
+    display: block;
+    width: 2%;
+    height: 2px;
+    background: white;
+    margin: 5px auto 0;
+}
+
+.skills h3 {
+    font-size: 28px;
+    text-align: center;
+}
+.AIskills{
+    padding: 15px;
+}
+.skillsmain{
+    padding: 15px;
+}
+.AIskillss{
+    padding: 15px;
+}
+.skillsmains{
+    padding: 15px;
+}
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    font-size: 18px;
+}
+.hobbies {
+    background-color: #fff;
+    padding: 20px 10px 0px 0px;
+}
+
+.hobbies h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.hobbies h2::after{
+    content: '';
+    display: block;
+    width: 5%;
+    height: 2px;
+    background: black;
+    margin: 5px auto 0;
+}
+
+.hobbies ul {
+    list-style: none;
+    padding: 0;
+}
+
+.hobbies li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.portfolio {
+    background-color:#eee;
+    padding: 20px 0;
+}
+.link{
+    background: yellow;
+    padding: 5px 5px 5px 5px;
+}
+.portfolio h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.portfolio h2::after{
+    content: '';
+    display: block;
+    width: 3%;
+    height: 2px;
+    background: black;
+    margin: 5px auto 0;
+}
+.project{
+    text-align: center;
+}
+.contact {
+    background-color: #fff;
+    padding: 20px 20px;
+}
+.contact h2::after {
+    content: '';
+    display: block;
+    width: 3%;
+    height: 2px;
+    background: white;
+    margin: 2px auto 0;
+}
+.contact {
+    background-color: rgb(28, 62, 155)
+}
+.contact h2 {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+.contact ul {
+    list-style: none;
+}
+.footer{
+    color: white;
+    padding: 10px 0px;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 575px) { 
+.contact h2::after {
+        width: 10%;
+}
+.skills h3::after {
+    width: 6%;
+}
+.skills {
+    padding: 20px 10px 0px 0px
+}
+.bio h2::after {
+    width: 15%;
+}
+h1 {
+    font-size: 27px;
+}
+.hobbies h2::after{
+    content: '';
+    display: block;
+    width: 10%;
+}
+.portfolio h2::after{
+    width: 10%;
+}
+}
