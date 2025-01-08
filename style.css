@@ -1,0 +1,210 @@
+.header{
+    background-color: white;
+  }
+.bannersection{
+    background-color: black;
+    color: white;
+}
+.bannersection h1{
+    color: rgb(247, 191, 8);;
+}
+.bannersection h4{
+    color: yellow;
+}
+.bannersection img{
+    margin-left: 20px;
+    padding: 5px 0px 0px 0px;
+}
+.bannertxt{
+    padding: 80px 0px 0px 0px;
+}
+.bannersection button {
+    padding: 10px 15px 10px 15px;
+    background: yellow;
+    font-size: 15px;
+}
+.border {
+    padding: 20px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+}
+.ourservices{
+    padding: 50px 0px;
+}
+.border h6{
+        text-align: center;
+        padding: 6px 8px 6px 8px;
+        color: black;
+        border-radius: 4px;
+}
+.freeship h6{
+    background-color: #fddde4;
+}
+.onlineorder h6{
+    background-color:#cdebbc;
+}
+.savemoney h6{
+    background-color: #d1e8f2;
+}
+.promotions h6{
+    background-color: #cdd4f8;
+}
+.happysell h6{
+    background-color: #f6dbf6;
+}
+.fsupport h6{
+    background-color: #fff2e5;
+}
+.border img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.cardproduct{
+    margin: 5px 5px;
+}
+.cardimg img{
+    width: 75%;
+    border-radius: 20px;
+    text-align: center;
+}
+.cardimg{
+    text-align: center;
+    margin-top: 10px;
+}
+.star i{
+    color: rgb(243, 181, 25);
+}
+.cardcontent h4{
+    padding-top: 5px;
+}
+.secondrow{
+    padding-top: 15px;
+}
+.minibanner{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-image: url(images/minibanner.jpg);
+    margin: 50px 0px;
+    color: white;
+}
+.minibanner h2 span{
+    color: #ef3636;
+}
+.getnews{
+    padding: 12px 15px 12px 15px;
+    background: yellow;
+    font-size: 15px;
+}
+.get{
+    padding: 10px 10px 10px 10px;
+    background: yellow;
+    font-size: 15px;
+}
+.featuredproduct{
+    text-align: center;
+    margin-top: 15px;
+}
+.form input{
+        height: 3.125rem;
+        width: 50%;
+        font-size: 14px;
+        padding: 0 1.25em;
+        border: 1px solid;
+        border-radius: 4px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .newsletter{
+        margin: 30px 0px;
+        padding: 30px 0px;
+        background-image: url(https://i.postimg.cc/R0Bs4qqt/b14.png);
+        background-color: #041e42;
+    }
+.newstext h4{
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+}
+.newstext p {
+    color: #818ea0;
+    font-weight: 600;
+    font-size: 14px;
+}
+.newstext p span {
+    color: #ffbd27;
+}
+.mobile li{
+    list-style: none;
+}
+.paymentimg img{
+    border: 1px solid #088178;
+    border-radius: 6px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.servicesmain li{
+    list-style: none;
+    margin-left: 20px;
+}
+.services li{
+    list-style: none;
+}
+.mobile h4{
+    padding-top: 10px;
+}
+.servicesmain h4{
+    padding-left: 50px;
+}
+.mobile ul{
+    margin-left: -30px;
+}
+.services ul{
+    margin-left: 10px;
+}
+.services h4{
+    padding-left: 40px;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+
+
+@media (min-width: 320px) and (max-width: 575px) {
+.bannerimg img {
+    width: 100%;
+    margin-left: 0px;
+}
+.bannertxt{
+    padding-top: 20px;
+}
+.bannersection{
+    padding: 10px 0px;
+}
+.servicesmain h4{
+    padding-left: 0px;
+    padding-top: 10px;
+}
+.servicesmain li{
+    margin-left: -30px;
+}
+.services li{
+    margin-left: -40px;
+}
+.services h4{
+    padding-left: 0px;
+}
+.border {
+    padding: 5px 0px;
+}
+.carde{
+    margin: 10px 0px;
+}
+.ourservices {
+    padding: 30px 0px;
+}
+  }
